@@ -14,7 +14,8 @@ public class Application {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-                System.out.println("Method " + method.getName() + " returns a value of type " + method.getAnnotatedReturnType());
+                System.out.print("Method " + method.getName());
+                System.out.println(" returns a value of type " + method.getAnnotatedReturnType());
             }
         }
     }
