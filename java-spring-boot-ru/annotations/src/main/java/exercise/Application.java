@@ -15,7 +15,7 @@ public class Application {
                     e.printStackTrace();
                 }
                 System.out.print("Method " + method.getName());
-                System.out.println(" returns a value of type " + method.getAnnotatedReturnType());
+                System.out.println(" returns a value of type " + method.getReturnType().getSimpleName());
             }
         }
     }
